@@ -6,5 +6,6 @@ target 'tabata' do
   use_frameworks!
 
   # Pods for tabata
+  pod 'RealmSwift'
 
 end

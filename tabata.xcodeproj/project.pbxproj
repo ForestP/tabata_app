@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7F81505DF54E619EBBB02C2 /* Pods_tabata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C59F8127462455B4693332 /* Pods_tabata.framework */; };
 		AE54A0EC207B0FDD000EC38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54A0EB207B0FDD000EC38C /* AppDelegate.swift */; };
-		AE54A0EE207B0FDD000EC38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54A0ED207B0FDD000EC38C /* ViewController.swift */; };
+		AE54A0EE207B0FDD000EC38C /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54A0ED207B0FDD000EC38C /* homeVC.swift */; };
 		AE54A0F1207B0FDD000EC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54A0EF207B0FDD000EC38C /* Main.storyboard */; };
 		AE54A0F3207B0FDD000EC38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE54A0F2207B0FDD000EC38C /* Assets.xcassets */; };
 		AE54A0F6207B0FDD000EC38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54A0F4207B0FDD000EC38C /* LaunchScreen.storyboard */; };
+		AE893E36207F0DD7005F9229 /* workoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E35207F0DD7005F9229 /* workoutVC.swift */; };
+		AE893E38207F0DE2005F9229 /* editVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E37207F0DE2005F9229 /* editVC.swift */; };
+		AE893E3A207F0E49005F9229 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E39207F0E49005F9229 /* ReusableView.swift */; };
+		AE893E3C207F0E68005F9229 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E3B207F0E68005F9229 /* NibLoadableView.swift */; };
+		AE893E3E207F0E81005F9229 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E3D207F0E81005F9229 /* UITableView+Ext.swift */; };
+		AE893E40207F0E9A005F9229 /* WorkoutDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E3F207F0E9A005F9229 /* WorkoutDataService.swift */; };
+		AE893E42207F0EA7005F9229 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE893E41207F0EA7005F9229 /* Workout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C59F8127462455B4693332 /* Pods_tabata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983B0FB256EDA57FE734AF95 /* Pods-tabata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tabata/Pods-tabata.debug.xcconfig"; sourceTree = "<group>"; };
 		AE54A0E8207B0FDD000EC38C /* tabata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE54A0EB207B0FDD000EC38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE54A0ED207B0FDD000EC38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE54A0ED207B0FDD000EC38C /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		AE54A0F0207B0FDD000EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE54A0F2207B0FDD000EC38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE54A0F5207B0FDD000EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE54A0F7207B0FDD000EC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE893E35207F0DD7005F9229 /* workoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutVC.swift; sourceTree = "<group>"; };
+		AE893E37207F0DE2005F9229 /* editVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editVC.swift; sourceTree = "<group>"; };
+		AE893E39207F0E49005F9229 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		AE893E3B207F0E68005F9229 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		AE893E3D207F0E81005F9229 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		AE893E3F207F0E9A005F9229 /* WorkoutDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataService.swift; sourceTree = "<group>"; };
+		AE893E41207F0EA7005F9229 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		D80648465FA39C65CB8E48B8 /* Pods-tabata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabata.release.xcconfig"; path = "Pods/Target Support Files/Pods-tabata/Pods-tabata.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F81505DF54E619EBBB02C2 /* Pods_tabata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06925A30ABA1147F12711374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C59F8127462455B4693332 /* Pods_tabata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67D2D636003DCEBD4BC72CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983B0FB256EDA57FE734AF95 /* Pods-tabata.debug.xcconfig */,
+				D80648465FA39C65CB8E48B8 /* Pods-tabata.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE54A0DF207B0FDD000EC38C = {
 			isa = PBXGroup;
 			children = (
 				AE54A0EA207B0FDD000EC38C /* tabata */,
 				AE54A0E9207B0FDD000EC38C /* Products */,
+				67D2D636003DCEBD4BC72CE7 /* Pods */,
+				06925A30ABA1147F12711374 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,69 @@
 		AE54A0EA207B0FDD000EC38C /* tabata */ = {
 			isa = PBXGroup;
 			children = (
+				AE893E34207F0DA8005F9229 /* Extensions */,
+				AE893E33207F0DA2005F9229 /* Protocols */,
+				AE893E32207F0D9B005F9229 /* Services */,
+				AE893E31207F0D94005F9229 /* Controllers */,
+				AE893E30207F0D8F005F9229 /* Views */,
+				AE893E2E207F0D81005F9229 /* Models */,
 				AE54A0EB207B0FDD000EC38C /* AppDelegate.swift */,
-				AE54A0ED207B0FDD000EC38C /* ViewController.swift */,
 				AE54A0EF207B0FDD000EC38C /* Main.storyboard */,
 				AE54A0F2207B0FDD000EC38C /* Assets.xcassets */,
 				AE54A0F4207B0FDD000EC38C /* LaunchScreen.storyboard */,
 				AE54A0F7207B0FDD000EC38C /* Info.plist */,
 			);
 			path = tabata;
+			sourceTree = "<group>";
+		};
+		AE893E2E207F0D81005F9229 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE893E41207F0EA7005F9229 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE893E30207F0D8F005F9229 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE893E31207F0D94005F9229 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE54A0ED207B0FDD000EC38C /* homeVC.swift */,
+				AE893E35207F0DD7005F9229 /* workoutVC.swift */,
+				AE893E37207F0DE2005F9229 /* editVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE893E32207F0D9B005F9229 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE893E3F207F0E9A005F9229 /* WorkoutDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE893E33207F0DA2005F9229 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AE893E39207F0E49005F9229 /* ReusableView.swift */,
+				AE893E3B207F0E68005F9229 /* NibLoadableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AE893E34207F0DA8005F9229 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE893E3D207F0E81005F9229 /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE54A0FA207B0FDD000EC38C /* Build configuration list for PBXNativeTarget "tabata" */;
 			buildPhases = (
+				F6B5975FB944B4B5AC22FD25 /* [CP] Check Pods Manifest.lock */,
 				AE54A0E4207B0FDD000EC38C /* Sources */,
 				AE54A0E5207B0FDD000EC38C /* Frameworks */,
 				AE54A0E6207B0FDD000EC38C /* Resources */,
+				4CC580B3CD02F118EC0E5AE9 /* [CP] Embed Pods Frameworks */,
+				C42A5AE313FDA37C104C5FA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +227,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CC580B3CD02F118EC0E5AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tabata/Pods-tabata-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabata/Pods-tabata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42A5AE313FDA37C104C5FA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabata/Pods-tabata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B5975FB944B4B5AC22FD25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tabata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE54A0E4207B0FDD000EC38C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE54A0EE207B0FDD000EC38C /* ViewController.swift in Sources */,
+				AE893E3C207F0E68005F9229 /* NibLoadableView.swift in Sources */,
+				AE54A0EE207B0FDD000EC38C /* homeVC.swift in Sources */,
+				AE893E3A207F0E49005F9229 /* ReusableView.swift in Sources */,
 				AE54A0EC207B0FDD000EC38C /* AppDelegate.swift in Sources */,
+				AE893E3E207F0E81005F9229 /* UITableView+Ext.swift in Sources */,
+				AE893E42207F0EA7005F9229 /* Workout.swift in Sources */,
+				AE893E40207F0E9A005F9229 /* WorkoutDataService.swift in Sources */,
+				AE893E38207F0DE2005F9229 /* editVC.swift in Sources */,
+				AE893E36207F0DD7005F9229 /* workoutVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +431,7 @@
 		};
 		AE54A0FB207B0FDD000EC38C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983B0FB256EDA57FE734AF95 /* Pods-tabata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +447,7 @@
 		};
 		AE54A0FC207B0FDD000EC38C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80648465FA39C65CB8E48B8 /* Pods-tabata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
